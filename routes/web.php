@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/dashboard', function () {
+    return view('dashboard.index');
+});
+
+Route::get('/inventaris-alat', function () {
+    return view('inventaris-alat.index');
 });
