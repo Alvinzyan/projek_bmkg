@@ -163,142 +163,115 @@
                 </div>
             </div>
         </div> --}}
+
         <div class="row mt-4">
-            <div class="col-12 col-sm-6 col-xl-4 mb-4">
-                <div class="card border-0 shadow">
-                    <div class="card-body">
-                        <div class="row d-block d-xl-flex align-items-center">
-                            <div
-                                class="col-12 col-xl-5 text-xl-center mb-3 mb-xl-0 d-flex align-items-center justify-content-xl-center">
-                                <div class="icon-shape icon-shape-primary rounded me-4 me-sm-0">
-                                    <svg class="icon" fill="currentColor" viewBox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z">
-                                        </path>
-                                    </svg>
-                                </div>
-                                <div class="d-sm-none">
-                                    <h2 class="h5">Customers</h2>
-                                    <h3 class="fw-extrabold mb-1">345,678</h3>
-                                </div>
-                            </div>
-                            <div class="col-12 col-xl-7 px-xl-0">
-                                <div class="d-none d-sm-block">
-                                    <h2 class="h6 text-gray-400 mb-0">Customers</h2>
-                                    <h3 class="fw-extrabold mb-2">345k</h3>
-                                </div>
-                                <small class="d-flex align-items-center text-gray-500">
-                                    Feb 1 - Apr 1,
-                                    <svg class="icon icon-xxs text-gray-500 ms-2 me-1" fill="currentColor"
-                                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
-                                            clip-rule="evenodd"></path>
-                                    </svg>
-                                    USA
-                                </small>
-                                <div class="small d-flex mt-1">
-                                    <div>Since last month <svg class="icon icon-xs text-success" fill="currentColor"
-                                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd"
-                                                d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
-                                                clip-rule="evenodd"></path>
-                                        </svg><span class="text-success fw-bolder">22%</span></div>
-                                </div>
-                            </div>
+            <div class="col-12 col-sm-6 col-xl-3 mb-4">
+                <div class="card border-0 shadow text-center">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <!-- Ikon -->
+                        <div
+                            class="icon-shape icon-shape-primary rounded mb-3 d-flex align-items-center justify-content-center">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-building">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M3 21l18 0" />
+                                <path d="M9 8l1 0" />
+                                <path d="M9 12l1 0" />
+                                <path d="M9 16l1 0" />
+                                <path d="M14 8l1 0" />
+                                <path d="M14 12l1 0" />
+                                <path d="M14 16l1 0" />
+                                <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16" />
+                            </svg>
                         </div>
+                        <!-- Tulisan -->
+                        <h3 class="fw-extrabold mb-0 fs-6">Kantor Meteorologi Banyuwangi</h3>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 col-xl-4 mb-4">
-                <div class="card border-0 shadow">
-                    <div class="card-body">
-                        <div class="row d-block d-xl-flex align-items-center">
-                            <div
-                                class="col-12 col-xl-5 text-xl-center mb-3 mb-xl-0 d-flex align-items-center justify-content-xl-center">
-                                <div class="icon-shape icon-shape-secondary rounded me-4 me-sm-0">
-                                    <svg class="icon" fill="currentColor" viewBox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z"
-                                            clip-rule="evenodd"></path>
-                                    </svg>
-                                </div>
-                                <div class="d-sm-none">
-                                    <h2 class="fw-extrabold h5">Revenue</h2>
-                                    <h3 class="mb-1">$43,594</h3>
-                                </div>
-                            </div>
-                            <div class="col-12 col-xl-7 px-xl-0">
-                                <div class="d-none d-sm-block">
-                                    <h2 class="h6 text-gray-400 mb-0">Revenue</h2>
-                                    <h3 class="fw-extrabold mb-2">$43,594</h3>
-                                </div>
-                                <small class="d-flex align-items-center text-gray-500">
-                                    Feb 1 - Apr 1,
-                                    <svg class="icon icon-xxs text-gray-500 ms-2 me-1" fill="currentColor"
-                                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
-                                            clip-rule="evenodd"></path>
-                                    </svg>
-                                    GER
-                                </small>
-                                <div class="small d-flex mt-1">
-                                    <div>Since last month <svg class="icon icon-xs text-danger" fill="currentColor"
-                                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd"
-                                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                                clip-rule="evenodd"></path>
-                                        </svg><span class="text-danger fw-bolder">2%</span></div>
-                                </div>
-                            </div>
+
+            <div class="col-12 col-sm-6 col-xl-3 mb-4">
+                <div class="card border-0 shadow text-center">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <!-- Ikon -->
+                        <div
+                            class="icon-shape icon-shape-primary rounded mb-3 d-flex align-items-center justify-content-center">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-building-airport">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M3.59 7h8.82a1 1 0 0 1 .902 1.433l-1.44 3a1 1 0 0 1 -.901 .567h-5.942a1 1 0 0 1 -.901 -.567l-1.44 -3a1 1 0 0 1 .901 -1.433" />
+                                <path
+                                    d="M6 7l-.78 -2.342a.5 .5 0 0 1 .473 -.658h4.612a.5 .5 0 0 1 .475 .658l-.78 2.342" />
+                                <path d="M8 2v2" />
+                                <path d="M6 12v9h4v-9" />
+                                <path d="M3 21h18" />
+                                <path d="M22 5h-6l-1 -1" />
+                                <path d="M18 3l2 2l-2 2" />
+                                <path d="M10 17h7a2 2 0 0 1 2 2v2" />
+                            </svg>
                         </div>
+                        <!-- Tulisan -->
+                        <h3 class="fw-extrabold mb-0 fs-6">Pos Meteorologi Bandara Banyuwangi</h3>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 col-xl-4 mb-4">
-                <div class="card border-0 shadow">
-                    <div class="card-body">
-                        <div class="row d-block d-xl-flex align-items-center">
-                            <div
-                                class="col-12 col-xl-5 text-xl-center mb-3 mb-xl-0 d-flex align-items-center justify-content-xl-center">
-                                <div class="icon-shape icon-shape-tertiary rounded me-4 me-sm-0">
-                                    <svg class="icon" fill="currentColor" viewBox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z"
-                                            clip-rule="evenodd"></path>
-                                    </svg>
-                                </div>
-                                <div class="d-sm-none">
-                                    <h2 class="fw-extrabold h5"> Bounce Rate</h2>
-                                    <h3 class="mb-1">50.88%</h3>
-                                </div>
-                            </div>
-                            <div class="col-12 col-xl-7 px-xl-0">
-                                <div class="d-none d-sm-block">
-                                    <h2 class="h6 text-gray-400 mb-0"> Bounce Rate</h2>
-                                    <h3 class="fw-extrabold mb-2">50.88%</h3>
-                                </div>
-                                <small class="text-gray-500">
-                                    Feb 1 - Apr 1
-                                </small>
-                                <div class="small d-flex mt-1">
-                                    <div>Since last month <svg class="icon icon-xs text-success" fill="currentColor"
-                                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd"
-                                                d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
-                                                clip-rule="evenodd"></path>
-                                        </svg><span class="text-success fw-bolder">4%</span></div>
-                                </div>
-                            </div>
+
+            <div class="col-12 col-sm-6 col-xl-3 mb-4">
+                <div class="card border-0 shadow text-center">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <!-- Ikon -->
+                        <div
+                            class="icon-shape icon-shape-primary rounded mb-3 d-flex align-items-center justify-content-center">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-anchor">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M12 9v12m-8 -8a8 8 0 0 0 16 0m1 0h-2m-14 0h-2" />
+                                <path d="M12 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                            </svg>
                         </div>
+                        <!-- Tulisan -->
+                        <h3 class="fw-extrabold mb-0 fs-6">Pos Meteorologi Pelabuhan Ketapang Banyuwangi</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-xl-3 mb-4">
+                <div class="card border-0 shadow text-center">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <!-- Ikon -->
+                        <div
+                            class="icon-shape icon-shape-primary rounded mb-3 d-flex align-items-center justify-content-center">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-building-airport">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M3.59 7h8.82a1 1 0 0 1 .902 1.433l-1.44 3a1 1 0 0 1 -.901 .567h-5.942a1 1 0 0 1 -.901 -.567l-1.44 -3a1 1 0 0 1 .901 -1.433" />
+                                <path
+                                    d="M6 7l-.78 -2.342a.5 .5 0 0 1 .473 -.658h4.612a.5 .5 0 0 1 .475 .658l-.78 2.342" />
+                                <path d="M8 2v2" />
+                                <path d="M6 12v9h4v-9" />
+                                <path d="M3 21h18" />
+                                <path d="M22 5h-6l-1 -1" />
+                                <path d="M18 3l2 2l-2 2" />
+                                <path d="M10 17h7a2 2 0 0 1 2 2v2" />
+                            </svg>
+                        </div>
+                        <!-- Tulisan -->
+                        <h3 class="fw-extrabold mb-0 fs-6">Pos Meteorologi Bandara Notodinegoro Jember</h3>
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-12 col-xl-12">
                 <div class="row">
@@ -306,31 +279,58 @@
                         <div class="card border-0 shadow">
                             <div class="card-header">
                                 <div class="row align-items-center">
-                                    <div class="col">
-                                        <h2 class="fs-5 fw-bold mb-0">Page visits</h2>
+                                    <!-- Kolom kiri: ikon + judul -->
+                                    <div class="col d-flex align-items-center">
+                                        <svg class="icon me-2" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+                                            <path
+                                                d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+                                            <path d="M9 12h6" />
+                                            <path d="M9 16h6" />
+                                        </svg>
+                                        <h2 class="fs-5 fw-bolder mb-0">LAPORAN INVENTARIS MINGGUAN</h2>
                                     </div>
-                                    <div class="col text-end">
-                                        <a href="#" class="btn btn-sm btn-primary">See all</a>
+
+                                    <!-- Kolom kanan / bawah: periode -->
+                                    <div class="col-12 mt-1">
+                                        <small class="text-muted">
+                                            Periode Minggu Ke-1 | <span>Tanggal 1 - 5 Agustus 2025</span>
+                                        </small>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="table-responsive">
                                 <table class="table align-items-center table-flush">
+                                    <colgroup>
+                                        <col style="width: 5%;">
+                                        <col style="width: 35%;">
+                                        <col style="width: 10%;">
+                                        <col style="width: 20%;">
+                                        <col style="width: 15%;">
+                                        <col style="width: 15%;">
+                                    </colgroup>
                                     <thead class="thead-light">
                                         <tr>
-                                            <th class="border-bottom" scope="col">Page name</th>
-                                            <th class="border-bottom" scope="col">Page Views</th>
-                                            <th class="border-bottom" scope="col">Page Value</th>
-                                            <th class="border-bottom" scope="col">Bounce rate</th>
+                                            <th class="border-bottom">No</th>
+                                            <th class="border-bottom">Nama Lokasi</th>
+                                            <th class="border-bottom">Status</th>
+                                            <th class="border-bottom">Penanggung Jawab</th>
+                                            <th class="border-bottom">Catatan</th>
+                                            <th class="border-bottom">Aksi</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <th class="text-gray-900" scope="row">
-                                                /demo/admin/index.html
+                                                1.
                                             </th>
                                             <td class="fw-bolder text-gray-500">
-                                                3,225
+                                                Kantor Meteorologi Banyuwangi 
                                             </td>
                                             <td class="fw-bolder text-gray-500">
                                                 $20
@@ -346,13 +346,24 @@
                                                     42,55%
                                                 </div>
                                             </td>
+                                            <td>
+                                                <button class="btn btn-info">Catatan</button>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex flex-row me-2">
+                                                    <div class="">
+                                                        <button class="btn btn-gray-700">Cek</button>
+                                                        <button class="btn btn-secondary">Edit</button>
+                                                    </div>                                                        
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <th class="text-gray-900" scope="row">
-                                                /demo/admin/forms.html
+                                                2.
                                             </th>
                                             <td class="fw-bolder text-gray-500">
-                                                2,987
+                                                Pos Meteorologi Bandara Banyuwangi
                                             </td>
                                             <td class="fw-bolder text-gray-500">
                                                 0
@@ -368,13 +379,24 @@
                                                     43,24%
                                                 </div>
                                             </td>
+                                            <td>
+                                                <button class="btn btn-info">Catatan</button>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex flex-row me-2">
+                                                    <div class="">
+                                                        <button class="btn btn-gray-700">Cek</button>
+                                                        <button class="btn btn-secondary">Edit</button>
+                                                    </div>                                                        
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <th class="text-gray-900" scope="row">
-                                                /demo/admin/util.html
+                                                3.
                                             </th>
                                             <td class="fw-bolder text-gray-500">
-                                                2,844
+                                                Pos Meteorologi Pelabuhan Ketapang Banyuwangi
                                             </td>
                                             <td class="fw-bolder text-gray-500">
                                                 294
@@ -390,13 +412,24 @@
                                                     32,35%
                                                 </div>
                                             </td>
+                                            <td>
+                                                <button class="btn btn-info">Catatan</button>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex flex-row me-2">
+                                                    <div class="">
+                                                        <button class="btn btn-gray-700">Cek</button>
+                                                        <button class="btn btn-secondary">Edit</button>
+                                                    </div>                                                        
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <th class="text-gray-900" scope="row">
-                                                /demo/admin/validation.html
+                                                4.
                                             </th>
                                             <td class="fw-bolder text-gray-500">
-                                                2,050
+                                                Pos Meteorologi Bandara Notodinegoro Jember
                                             </td>
                                             <td class="fw-bolder text-gray-500">
                                                 $147
@@ -412,26 +445,15 @@
                                                     50,87%
                                                 </div>
                                             </td>
-                                        </tr>
-                                        <tr>
-                                            <th class="text-gray-900" scope="row">
-                                                /demo/admin/modals.html
-                                            </th>
-                                            <td class="fw-bolder text-gray-500">
-                                                1,483
+                                            <td>
+                                                <button class="btn btn-info">Catatan</button>
                                             </td>
-                                            <td class="fw-bolder text-gray-500">
-                                                $19
-                                            </td>
-                                            <td class="fw-bolder text-gray-500">
-                                                <div class="d-flex">
-                                                    <svg class="icon icon-xs text-success me-2" fill="currentColor"
-                                                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill-rule="evenodd"
-                                                            d="M14.707 12.293a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l2.293-2.293a1 1 0 011.414 0z"
-                                                            clip-rule="evenodd"></path>
-                                                    </svg>
-                                                    26,12%
+                                            <td>
+                                                <div class="d-flex flex-row me-2">
+                                                    <div class="">
+                                                        <button class="btn btn-gray-700">Cek</button>
+                                                        <button class="btn btn-secondary">Edit</button>
+                                                    </div>                                                        
                                                 </div>
                                             </td>
                                         </tr>
@@ -443,14 +465,15 @@
                 </div>
             </div>
         </div>
+
         <div class="theme-settings card bg-gray-800 pt-2 collapse" id="theme-settings">
             <div class="card-body bg-gray-800 text-white pt-4">
                 <button type="button" class="btn-close theme-settings-close" aria-label="Close"
                     data-bs-toggle="collapse" href="#theme-settings" role="button" aria-expanded="false"
                     aria-controls="theme-settings"></button>
                 <div class="d-flex justify-content-between align-items-center mb-3">
-                    <p class="m-0 mb-1 me-4 fs-7">Open source <span role="img"
-                            aria-label="gratitude">💛</span></p>
+                    <p class="m-0 mb-1 me-4 fs-7">Open source <span role="img" aria-label="gratitude">💛</span>
+                    </p>
                     <a class="github-button" href="https://github.com/themesberg/volt-bootstrap-5-dashboard"
                         data-color-scheme="no-preference: dark; light: light; dark: light;" data-icon="octicon-star"
                         data-size="large" data-show-count="true"
@@ -468,8 +491,7 @@
                 </a>
                 <p class="fs-7 text-gray-300 text-center">Available in the following technologies:</p>
                 <div class="d-flex justify-content-center">
-                    <a class="me-3"
-                        href="https://themesberg.com/product/admin-dashboard/volt-bootstrap-5-dashboard"
+                    <a class="me-3" href="https://themesberg.com/product/admin-dashboard/volt-bootstrap-5-dashboard"
                         target="_blank">
                         <img src="../../assets/img/technologies/bootstrap-5-logo.svg" class="image image-xs">
                     </a>
@@ -562,7 +584,6 @@
 
     <!-- Volt JS -->
     <script src="{{ asset('volt/assets/js/volt.js') }}"></script>
-
 
 </body>
 

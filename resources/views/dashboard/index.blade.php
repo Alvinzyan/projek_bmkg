@@ -60,6 +60,9 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
+    {{-- Tabler Icon --}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/core@1.4.0/dist/css/tabler.min.css" />
+
     <!-- Sweet Alert -->
     <link type="text/css" href="{{ asset('volt/vendor/sweetalert2/dist/sweetalert2.min.css') }}" rel="stylesheet">
 
@@ -92,7 +95,7 @@
     </nav>
 
     <nav id="sidebarMenu" class="sidebar d-lg-block bg-gray-800 text-white collapse" data-simplebar>
-        @include('template.sidebar')
+        @include('template.sidebar')    
     </nav>
 
     <main class="content">
@@ -889,7 +892,8 @@
                     aria-controls="theme-settings"></button>
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <p class="m-0 mb-1 me-4 fs-7">Open source <span role="img"
-                            aria-label="gratitude">💛</span></p>
+                            aria-label="gratitude">💛</span>
+                    </p>
                     <a class="github-button" href="https://github.com/themesberg/volt-bootstrap-5-dashboard"
                         data-color-scheme="no-preference: dark; light: light; dark: light;" data-icon="octicon-star"
                         data-size="large" data-show-count="true"
@@ -1001,7 +1005,6 @@
 
     <!-- Volt JS -->
     <script src="{{ asset('volt/assets/js/volt.js') }}"></script>
-
 
 </body>
 
