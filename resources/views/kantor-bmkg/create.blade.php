@@ -198,7 +198,458 @@
 
                                                 {{-- Tahun Pemasangan --}}
                                                 <td>
+                                                    2004
+                                                </td>
 
+                                                {{-- Kalibrasi Terakhir --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Keterangan --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                {{-- No --}}
+                                                <th class="text-gray-900" scope="row">
+                                                    2.   
+                                                </th>
+
+                                                {{-- Nama Alat --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    Thermometer BB/ BK
+                                                </td>
+
+                                                {{-- Merek/Type --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    Scheneider
+                                                </td>
+
+                                                {{-- Jumlah --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    2
+                                                </td>
+
+                                                {{-- Kondisi --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Tahun Pemasangan --}}
+                                                <td>
+                                                    2000
+                                                </td>
+
+                                                {{-- Kalibrasi Terakhir --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Keterangan --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                {{-- No --}}
+                                                <th class="text-gray-900" scope="row">
+                                                    3.   
+                                                </th>
+
+                                                {{-- Nama Alat --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    Thermometer BB/ BK
+                                                </td>
+
+                                                {{-- Merek/Type --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    F.Ketterer
+                                                </td>
+
+                                                {{-- Jumlah --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    2
+                                                </td>
+
+                                                {{-- Kondisi --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Tahun Pemasangan --}}
+                                                <td>
+                                                    2011
+                                                </td>
+
+                                                {{-- Kalibrasi Terakhir --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Keterangan --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                {{-- No --}}
+                                                <th class="text-gray-900" scope="row">
+                                                    4.   
+                                                </th>
+
+                                                {{-- Nama Alat --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    Thermometer Max./ Min
+                                                </td>
+
+                                                {{-- Merek/Type --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    Scheneider
+                                                </td>
+
+                                                {{-- Jumlah --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    1
+                                                </td>
+
+                                                {{-- Kondisi --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Tahun Pemasangan --}}
+                                                <td>
+                                                    1968
+                                                </td>
+
+                                                {{-- Kalibrasi Terakhir --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Keterangan --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                {{-- No --}}
+                                                <th class="text-gray-900" scope="row">
+                                                    5.   
+                                                </th>
+
+                                                {{-- Nama Alat --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    Thermometer Max./ Min
+                                                </td>
+
+                                                {{-- Merek/Type --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    Scheneider
+                                                </td>
+
+                                                {{-- Jumlah --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    1
+                                                </td>
+
+                                                {{-- Kondisi --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Tahun Pemasangan --}}
+                                                <td>
+                                                    1994
+                                                </td>
+
+                                                {{-- Kalibrasi Terakhir --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Keterangan --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                {{-- No --}}
+                                                <th class="text-gray-900" scope="row">
+                                                    6.   
+                                                </th>
+
+                                                {{-- Nama Alat --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    Thermometer Max./ Min
+                                                </td>
+
+                                                {{-- Merek/Type --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    Scheneider
+                                                </td>
+
+                                                {{-- Jumlah --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    1
+                                                </td>
+
+                                                {{-- Kondisi --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Tahun Pemasangan --}}
+                                                <td>
+                                                    2000
+                                                </td>
+
+                                                {{-- Kalibrasi Terakhir --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Keterangan --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                {{-- No --}}
+                                                <th class="text-gray-900" scope="row">
+                                                    7.   
+                                                </th>
+
+                                                {{-- Nama Alat --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    Thermometer Max./ Min
+                                                </td>
+
+                                                {{-- Merek/Type --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    F.Ketterer
+                                                </td>
+
+                                                {{-- Jumlah --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    1
+                                                </td>
+
+                                                {{-- Kondisi --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Tahun Pemasangan --}}
+                                                <td>
+                                                    2011
+                                                </td>
+
+                                                {{-- Kalibrasi Terakhir --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Keterangan --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                {{-- No --}}
+                                                <th class="text-gray-900" scope="row">
+                                                    8.   
+                                                </th>
+
+                                                {{-- Nama Alat --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    Barograph
+                                                </td>
+
+                                                {{-- Merek/Type --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    J. Richard
+                                                </td>
+
+                                                {{-- Jumlah --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    1
+                                                </td>
+
+                                                {{-- Kondisi --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Tahun Pemasangan --}}
+                                                <td>
+                                                    1976
+                                                </td>
+
+                                                {{-- Kalibrasi Terakhir --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Keterangan --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                {{-- No --}}
+                                                <th class="text-gray-900" scope="row">
+                                                    9.   
+                                                </th>
+
+                                                {{-- Nama Alat --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    Barometer Digital
+                                                </td>
+
+                                                {{-- Merek/Type --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    Vaisalla PTB 330
+                                                </td>
+
+                                                {{-- Jumlah --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    1
+                                                </td>
+
+                                                {{-- Kondisi --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Tahun Pemasangan --}}
+                                                <td>
+                                                    2012
+                                                </td>
+
+                                                {{-- Kalibrasi Terakhir --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Keterangan --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                {{-- No --}}
+                                                <th class="text-gray-900" scope="row">
+                                                    10.   
+                                                </th>
+
+                                                {{-- Nama Alat --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    Anemometer Digital
+                                                </td>
+
+                                                {{-- Merek/Type --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                   RM. Young
+                                                </td>
+
+                                                {{-- Jumlah --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    1
+                                                </td>
+
+                                                {{-- Kondisi --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Tahun Pemasangan --}}
+                                                <td>
+                                                    2018
+                                                </td>
+
+                                                {{-- Kalibrasi Terakhir --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Keterangan --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                {{-- No --}}
+                                                <th class="text-gray-900" scope="row">
+                                                    11.   
+                                                </th>
+
+                                                {{-- Nama Alat --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    Cup Counter Anemometer
+                                                </td>
+
+                                                {{-- Merek/Type --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    DR. A.Muller/91 g
+                                                </td>
+
+                                                {{-- Jumlah --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    1
+                                                </td>
+
+                                                {{-- Kondisi --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Tahun Pemasangan --}}
+                                                <td>
+                                                    2003
+                                                </td>
+
+                                                {{-- Kalibrasi Terakhir --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Keterangan --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                {{-- No --}}
+                                                <th class="text-gray-900" scope="row">
+                                                    12.   
+                                                </th>
+
+                                                {{-- Nama Alat --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    Panci Penguapan
+                                                </td>
+
+                                                {{-- Merek/Type --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    Lokal
+                                                </td>
+
+                                                {{-- Jumlah --}}
+                                                <td class="fw-bolder text-gray-500">
+                                                    1
+                                                </td>
+
+                                                {{-- Kondisi --}}
+                                                <td>
+                                                    {{-- Jangan diisi dulu --}}
+                                                </td>
+
+                                                {{-- Tahun Pemasangan --}}
+                                                <td>
+                                                    1978
                                                 </td>
 
                                                 {{-- Kalibrasi Terakhir --}}
