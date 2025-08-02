@@ -172,9 +172,9 @@
                                         <tbody>
                                             <tr>
                                                 {{-- No --}}
-                                                <th class="text-gray-900" scope="row">
+                                                <td class="text-gray-900" scope="row">
                                                     1.   
-                                                </th>
+                                                </td>
 
                                                 {{-- Nama Alat --}}
                                                 <td class="fw-bolder text-gray-500">
