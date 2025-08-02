@@ -7415,6 +7415,19 @@ textarea.form-control-lg {
     border-radius: 0.5rem;
 }
 
+.card-table {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #F5F5F5;
+    background-clip: border-box;
+    border: 0.0625rem solid rgba(17, 24, 39, 0.125);
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
 .card > hr {
     margin-right: 0;
     margin-left: 0;

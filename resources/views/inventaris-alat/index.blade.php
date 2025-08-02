@@ -330,7 +330,7 @@
                                                 1.
                                             </th>
                                             <td class="fw-bolder text-gray-500">
-                                                Kantor Meteorologi Banyuwangi 
+                                                Kantor Meteorologi Banyuwangi
                                             </td>
                                             <td class="fw-bolder text-gray-500">
                                                 $20
@@ -347,14 +347,36 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                <button class="btn btn-info">Catatan</button>
+                                                <button class="btn btn-sm btn-info"><svg class="icon icon-xs me-1" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-list"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l11 0" /><path d="M9 12l11 0" /><path d="M9 18l11 0" /><path d="M5 6l0 .01" /><path d="M5 12l0 .01" /><path d="M5 18l0 .01" /></svg>Catatan</button>
                                             </td>
                                             <td>
                                                 <div class="d-flex flex-row me-2">
                                                     <div class="">
-                                                        <button class="btn btn-gray-700">Cek</button>
-                                                        <button class="btn btn-secondary">Edit</button>
-                                                    </div>                                                        
+                                                        <button class="btn btn-sm btn-gray-700"><svg class="icon icon-xs me-1"
+                                                                xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="icon icon-tabler icons-tabler-outline icon-tabler-eye">
+                                                                <path stroke="none" d="M0 0h24v24H0z"
+                                                                    fill="none" />
+                                                                <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                                                                <path
+                                                                    d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" />
+                                                            </svg>Cek</button>
+                                                        <button class="btn btn-sm btn-secondary"><svg class="icon icon-xs me-1"
+                                                                xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="icon icon-tabler icons-tabler-outline icon-tabler-pencil">
+                                                                <path stroke="none" d="M0 0h24v24H0z"
+                                                                    fill="none" />
+                                                                <path
+                                                                    d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                                                                <path d="M13.5 6.5l4 4" />
+                                                            </svg>Edit</button>
+                                                    </div>
                                                 </div>
                                             </td>
                                         </tr>
@@ -380,14 +402,36 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                <button class="btn btn-info">Catatan</button>
+                                                <button class="btn btn-sm btn-info"><svg class="icon icon-xs me-1" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-list"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l11 0" /><path d="M9 12l11 0" /><path d="M9 18l11 0" /><path d="M5 6l0 .01" /><path d="M5 12l0 .01" /><path d="M5 18l0 .01" /></svg>Catatan</button>
                                             </td>
                                             <td>
                                                 <div class="d-flex flex-row me-2">
                                                     <div class="">
-                                                        <button class="btn btn-gray-700">Cek</button>
-                                                        <button class="btn btn-secondary">Edit</button>
-                                                    </div>                                                        
+                                                        <button class="btn btn-sm btn-gray-700"><svg class="icon icon-xs me-1"
+                                                                xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="icon icon-tabler icons-tabler-outline icon-tabler-eye">
+                                                                <path stroke="none" d="M0 0h24v24H0z"
+                                                                    fill="none" />
+                                                                <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                                                                <path
+                                                                    d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" />
+                                                            </svg>Cek</button>
+                                                        <button class="btn btn-sm btn-secondary"><svg class="icon icon-xs me-1"
+                                                                xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="icon icon-tabler icons-tabler-outline icon-tabler-pencil">
+                                                                <path stroke="none" d="M0 0h24v24H0z"
+                                                                    fill="none" />
+                                                                <path
+                                                                    d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                                                                <path d="M13.5 6.5l4 4" />
+                                                            </svg>Edit</button>
+                                                    </div>
                                                 </div>
                                             </td>
                                         </tr>
@@ -413,14 +457,36 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                <button class="btn btn-info">Catatan</button>
+                                                <button class="btn btn-sm btn-info"><svg class="icon icon-xs me-1" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-list"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l11 0" /><path d="M9 12l11 0" /><path d="M9 18l11 0" /><path d="M5 6l0 .01" /><path d="M5 12l0 .01" /><path d="M5 18l0 .01" /></svg>Catatan</button>
                                             </td>
                                             <td>
                                                 <div class="d-flex flex-row me-2">
                                                     <div class="">
-                                                        <button class="btn btn-gray-700">Cek</button>
-                                                        <button class="btn btn-secondary">Edit</button>
-                                                    </div>                                                        
+                                                        <button class="btn btn-sm btn-gray-700"><svg class="icon icon-xs me-1"
+                                                                xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="icon icon-tabler icons-tabler-outline icon-tabler-eye">
+                                                                <path stroke="none" d="M0 0h24v24H0z"
+                                                                    fill="none" />
+                                                                <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                                                                <path
+                                                                    d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" />
+                                                            </svg>Cek</button>
+                                                        <button class="btn btn-sm btn-secondary"><svg class="icon icon-xs me-1"
+                                                                xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="icon icon-tabler icons-tabler-outline icon-tabler-pencil">
+                                                                <path stroke="none" d="M0 0h24v24H0z"
+                                                                    fill="none" />
+                                                                <path
+                                                                    d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                                                                <path d="M13.5 6.5l4 4" />
+                                                            </svg>Edit</button>
+                                                    </div>
                                                 </div>
                                             </td>
                                         </tr>
@@ -446,14 +512,36 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                <button class="btn btn-info">Catatan</button>
+                                                <button class="btn btn-sm btn-info"><svg class="icon icon-xs me-1" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-list"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l11 0" /><path d="M9 12l11 0" /><path d="M9 18l11 0" /><path d="M5 6l0 .01" /><path d="M5 12l0 .01" /><path d="M5 18l0 .01" /></svg>Catatan</button>
                                             </td>
                                             <td>
                                                 <div class="d-flex flex-row me-2">
                                                     <div class="">
-                                                        <button class="btn btn-gray-700">Cek</button>
-                                                        <button class="btn btn-secondary">Edit</button>
-                                                    </div>                                                        
+                                                        <button class="btn btn-sm btn-gray-700"><svg class="icon icon-xs me-1"
+                                                                xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="icon icon-tabler icons-tabler-outline icon-tabler-eye">
+                                                                <path stroke="none" d="M0 0h24v24H0z"
+                                                                    fill="none" />
+                                                                <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                                                                <path
+                                                                    d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" />
+                                                            </svg>Cek</button>
+                                                        <button class="btn btn-sm btn-secondary"><svg class="icon icon-xs me-1"
+                                                                xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="icon icon-tabler icons-tabler-outline icon-tabler-pencil">
+                                                                <path stroke="none" d="M0 0h24v24H0z"
+                                                                    fill="none" />
+                                                                <path
+                                                                    d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                                                                <path d="M13.5 6.5l4 4" />
+                                                            </svg>Edit</button>
+                                                    </div>
                                                 </div>
                                             </td>
                                         </tr>

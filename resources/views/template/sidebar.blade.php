@@ -42,7 +42,7 @@
                     </a>
                 </li>
                 <li class="nav-item {{ Request::is('dashboard') ? 'active' : '' }}">
-                    <a href="dashboard" class="nav-link">
+                    <a href="/dashboard" class="nav-link">
                         <span class="sidebar-icon">
                             <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -73,7 +73,7 @@
                     </a>
                 </li> --}}
                 <li class="nav-item {{ Request::is('inventaris-alat') ? 'active' : '' }}">
-                    <a href="inventaris-alat" class="nav-link">
+                    <a href="/inventaris-alat" class="nav-link">
                         <span class="sidebar-icon">
                             <svg class="icon icon-xs me-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                 class="size-6">

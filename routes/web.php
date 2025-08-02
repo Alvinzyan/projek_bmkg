@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\KantorBmkgController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,5 @@ Route::get('/dashboard', function () {
 Route::get('/inventaris-alat', function () {
     return view('inventaris-alat.index');
 });
+
+Route::get('inventaris-alat/kantor-bmkg', [KantorBmkgController::class, 'create'])->name('kantor-bmkg.create');
