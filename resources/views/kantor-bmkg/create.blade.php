@@ -711,12 +711,12 @@
 
                                                 {{-- Nama Alat --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    Sangkar Metereologi
+                                                    Temperature&Humidity Sensor
                                                 </td>
 
                                                 {{-- Merek/Type --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    Kayu Lokal
+                                                    Vaisala/HMP155
                                                 </td>
 
                                                 {{-- Jumlah --}}
@@ -731,7 +731,7 @@
 
                                                 {{-- Tahun Pemasangan --}}
                                                 <td>
-                                                    2004
+                                                    2018
                                                 </td>
 
                                                 {{-- Kalibrasi Terakhir --}}
@@ -752,12 +752,12 @@
 
                                                 {{-- Nama Alat --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    Thermometer BB/ BK
+                                                    Barometer Sensor
                                                 </td>
 
                                                 {{-- Merek/Type --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    Scheneider
+                                                    Vaisala/PTB330
                                                 </td>
 
                                                 {{-- Jumlah --}}
@@ -772,7 +772,7 @@
 
                                                 {{-- Tahun Pemasangan --}}
                                                 <td>
-                                                    2000
+                                                    2018
                                                 </td>
 
                                                 {{-- Kalibrasi Terakhir --}}
@@ -793,12 +793,12 @@
 
                                                 {{-- Nama Alat --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    Thermometer BB/ BK
+                                                    Water Thermometer
                                                 </td>
 
                                                 {{-- Merek/Type --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    F.Ketterer
+                                                    Vaisala/QMT110
                                                 </td>
 
                                                 {{-- Jumlah --}}
@@ -813,7 +813,7 @@
 
                                                 {{-- Tahun Pemasangan --}}
                                                 <td>
-                                                    2011
+                                                    2018
                                                 </td>
 
                                                 {{-- Kalibrasi Terakhir --}}
@@ -834,12 +834,12 @@
 
                                                 {{-- Nama Alat --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    Thermometer Max./ Min
+                                                    Wind Speed Evaporation
                                                 </td>
 
                                                 {{-- Merek/Type --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    Scheneider
+                                                    Vaisala/WAA151
                                                 </td>
 
                                                 {{-- Jumlah --}}
@@ -854,7 +854,7 @@
 
                                                 {{-- Tahun Pemasangan --}}
                                                 <td>
-                                                    1968
+                                                    2018
                                                 </td>
 
                                                 {{-- Kalibrasi Terakhir --}}
@@ -875,12 +875,12 @@
 
                                                 {{-- Nama Alat --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    Thermometer Max./ Min
+                                                    Ultrasonic Sensor
                                                 </td>
 
                                                 {{-- Merek/Type --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    Scheneider
+                                                    Vaisala/WMT703
                                                 </td>
 
                                                 {{-- Jumlah --}}
@@ -895,7 +895,7 @@
 
                                                 {{-- Tahun Pemasangan --}}
                                                 <td>
-                                                    1994
+                                                    2018
                                                 </td>
 
                                                 {{-- Kalibrasi Terakhir --}}
@@ -916,12 +916,12 @@
 
                                                 {{-- Nama Alat --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    Thermometer Max./ Min
+                                                    Tipping Bucket
                                                 </td>
 
                                                 {{-- Merek/Type --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    Scheneider
+                                                    Vaisala/RG13N2NN
                                                 </td>
 
                                                 {{-- Jumlah --}}
@@ -936,7 +936,7 @@
 
                                                 {{-- Tahun Pemasangan --}}
                                                 <td>
-                                                    2000
+                                                    2018
                                                 </td>
 
                                                 {{-- Kalibrasi Terakhir --}}
@@ -957,12 +957,12 @@
 
                                                 {{-- Nama Alat --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    Thermometer Max./ Min
+                                                    Water Level
                                                 </td>
 
                                                 {{-- Merek/Type --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    F.Ketterer
+                                                    Thies Clima/6143210073
                                                 </td>
 
                                                 {{-- Jumlah --}}
@@ -977,7 +977,7 @@
 
                                                 {{-- Tahun Pemasangan --}}
                                                 <td>
-                                                    2011
+                                                    2018
                                                 </td>
 
                                                 {{-- Kalibrasi Terakhir --}}
@@ -998,12 +998,12 @@
 
                                                 {{-- Nama Alat --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    Barograph
+                                                    Linghtning Detector
                                                 </td>
 
                                                 {{-- Merek/Type --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    J. Richard
+                                                    
                                                 </td>
 
                                                 {{-- Jumlah --}}
@@ -1018,7 +1018,7 @@
 
                                                 {{-- Tahun Pemasangan --}}
                                                 <td>
-                                                    1976
+                                                    2018
                                                 </td>
 
                                                 {{-- Kalibrasi Terakhir --}}
@@ -1039,12 +1039,12 @@
 
                                                 {{-- Nama Alat --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    Barometer Digital
+                                                    Data Logger
                                                 </td>
 
                                                 {{-- Merek/Type --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    Vaisalla PTB 330
+                                                    Campbel Scientific/CR3000
                                                 </td>
 
                                                 {{-- Jumlah --}}
@@ -1059,7 +1059,7 @@
 
                                                 {{-- Tahun Pemasangan --}}
                                                 <td>
-                                                    2012
+                                                    2018
                                                 </td>
 
                                                 {{-- Kalibrasi Terakhir --}}
@@ -1080,12 +1080,12 @@
 
                                                 {{-- Nama Alat --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    Anemometer Digital
+                                                    PC Server
                                                 </td>
 
                                                 {{-- Merek/Type --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                   RM. Young
+                                                   
                                                 </td>
 
                                                 {{-- Jumlah --}}
@@ -1121,12 +1121,12 @@
 
                                                 {{-- Nama Alat --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    Cup Counter Anemometer
+                                                    PC Client
                                                 </td>
 
                                                 {{-- Merek/Type --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    DR. A.Muller/91 g
+                                                    
                                                 </td>
 
                                                 {{-- Jumlah --}}
@@ -1141,7 +1141,7 @@
 
                                                 {{-- Tahun Pemasangan --}}
                                                 <td>
-                                                    2003
+                                                    2018
                                                 </td>
 
                                                 {{-- Kalibrasi Terakhir --}}
@@ -1162,12 +1162,12 @@
 
                                                 {{-- Nama Alat --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    Panci Penguapan
+                                                    UPS
                                                 </td>
 
                                                 {{-- Merek/Type --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    Lokal
+                                                    
                                                 </td>
 
                                                 {{-- Jumlah --}}
@@ -1182,7 +1182,7 @@
 
                                                 {{-- Tahun Pemasangan --}}
                                                 <td>
-                                                    1978
+                                                    2018
                                                 </td>
 
                                                 {{-- Kalibrasi Terakhir --}}
