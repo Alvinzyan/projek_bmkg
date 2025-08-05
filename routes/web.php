@@ -18,8 +18,9 @@ Route::get('/dashboard', function () {
     return view('dashboard.index');
 });
 
-Route::get('/inventaris-alat', function () {
+Route::get('/cek-alat', function () {
     return view('inventaris-alat.index');
 });
 
-Route::get('inventaris-alat/kantor-bmkg', [KantorBmkgController::class, 'create'])->name('kantor-bmkg.create');
+
+Route::get('cek-alat/kantor-bmkg', [KantorBmkgController::class, 'create'])->name('kantor-bmkg.create');

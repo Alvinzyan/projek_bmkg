@@ -166,63 +166,68 @@
 
         <div class="row mt-4">
             <div class="col-12 col-sm-6 col-xl-3 mb-4">
-                <div class="card border-0 shadow text-center">
-                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
-                        <!-- Ikon -->
-                        <div
-                            class="icon-shape icon-shape-primary rounded mb-3 d-flex align-items-center justify-content-center">
-                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round"
-                                class="icon icon-tabler icons-tabler-outline icon-tabler-building">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <path d="M3 21l18 0" />
-                                <path d="M9 8l1 0" />
-                                <path d="M9 12l1 0" />
-                                <path d="M9 16l1 0" />
-                                <path d="M14 8l1 0" />
-                                <path d="M14 12l1 0" />
-                                <path d="M14 16l1 0" />
-                                <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16" />
-                            </svg>
+                <a href="/cek-alat/kantor-bmkg" class="card-link">
+                    <div class="card border-0 shadow text-center hover-card">
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                            <!-- Ikon -->
+                            <div
+                                class="icon-shape icon-shape-primary rounded mb-3 d-flex align-items-center justify-content-center">
+                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-building">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M3 21l18 0" />
+                                    <path d="M9 8l1 0" />
+                                    <path d="M9 12l1 0" />
+                                    <path d="M9 16l1 0" />
+                                    <path d="M14 8l1 0" />
+                                    <path d="M14 12l1 0" />
+                                    <path d="M14 16l1 0" />
+                                    <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16" />
+                                </svg>
+                            </div>
+                            <!-- Tulisan -->
+                            <h3 class="fw-extrabold mb-0 fs-6">Kantor Meteorologi Banyuwangi</h3>
                         </div>
-                        <!-- Tulisan -->
-                        <h3 class="fw-extrabold mb-0 fs-6">Kantor Meteorologi Banyuwangi</h3>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="col-12 col-sm-6 col-xl-3 mb-4">
-                <div class="card border-0 shadow text-center">
-                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
-                        <!-- Ikon -->
-                        <div
-                            class="icon-shape icon-shape-primary rounded mb-3 d-flex align-items-center justify-content-center">
-                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round"
-                                class="icon icon-tabler icons-tabler-outline icon-tabler-building-airport">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <path
-                                    d="M3.59 7h8.82a1 1 0 0 1 .902 1.433l-1.44 3a1 1 0 0 1 -.901 .567h-5.942a1 1 0 0 1 -.901 -.567l-1.44 -3a1 1 0 0 1 .901 -1.433" />
-                                <path
-                                    d="M6 7l-.78 -2.342a.5 .5 0 0 1 .473 -.658h4.612a.5 .5 0 0 1 .475 .658l-.78 2.342" />
-                                <path d="M8 2v2" />
-                                <path d="M6 12v9h4v-9" />
-                                <path d="M3 21h18" />
-                                <path d="M22 5h-6l-1 -1" />
-                                <path d="M18 3l2 2l-2 2" />
-                                <path d="M10 17h7a2 2 0 0 1 2 2v2" />
-                            </svg>
+                <a href="" class="card-link">
+                    <div class="card border-0 shadow text-center hover-card">
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                            <!-- Ikon -->
+                            <div
+                                class="icon-shape icon-shape-primary rounded mb-3 d-flex align-items-center justify-content-center">
+                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-building-airport">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M3.59 7h8.82a1 1 0 0 1 .902 1.433l-1.44 3a1 1 0 0 1 -.901 .567h-5.942a1 1 0 0 1 -.901 -.567l-1.44 -3a1 1 0 0 1 .901 -1.433" />
+                                    <path
+                                        d="M6 7l-.78 -2.342a.5 .5 0 0 1 .473 -.658h4.612a.5 .5 0 0 1 .475 .658l-.78 2.342" />
+                                    <path d="M8 2v2" />
+                                    <path d="M6 12v9h4v-9" />
+                                    <path d="M3 21h18" />
+                                    <path d="M22 5h-6l-1 -1" />
+                                    <path d="M18 3l2 2l-2 2" />
+                                    <path d="M10 17h7a2 2 0 0 1 2 2v2" />
+                                </svg>
+                            </div>
+                            <!-- Tulisan -->
+                            <h3 class="fw-extrabold mb-0 fs-6">Pos Meteorologi Bandara Banyuwangi</h3>
                         </div>
-                        <!-- Tulisan -->
-                        <h3 class="fw-extrabold mb-0 fs-6">Pos Meteorologi Bandara Banyuwangi</h3>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="col-12 col-sm-6 col-xl-3 mb-4">
-                <div class="card border-0 shadow text-center">
+                <a href="" class="card-link">
+                    <div class="card border-0 shadow text-center hover-card">
                     <div class="card-body d-flex flex-column align-items-center justify-content-center">
                         <!-- Ikon -->
                         <div
@@ -240,10 +245,12 @@
                         <h3 class="fw-extrabold mb-0 fs-6">Pos Meteorologi Pelabuhan Ketapang Banyuwangi</h3>
                     </div>
                 </div>
+                </a>
             </div>
 
             <div class="col-12 col-sm-6 col-xl-3 mb-4">
-                <div class="card border-0 shadow text-center">
+                <a href="" class="card-link">
+                    <div class="card border-0 shadow text-center hover-card">
                     <div class="card-body d-flex flex-column align-items-center justify-content-center">
                         <!-- Ikon -->
                         <div
@@ -269,6 +276,7 @@
                         <h3 class="fw-extrabold mb-0 fs-6">Pos Meteorologi Bandara Notodinegoro Jember</h3>
                     </div>
                 </div>
+                </a>
             </div>
         </div>
 
@@ -347,12 +355,26 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                <button class="btn btn-sm btn-info"><svg class="icon icon-xs me-1" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-list"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l11 0" /><path d="M9 12l11 0" /><path d="M9 18l11 0" /><path d="M5 6l0 .01" /><path d="M5 12l0 .01" /><path d="M5 18l0 .01" /></svg>Catatan</button>
+                                                <button class="btn btn-sm btn-tertiary"><svg class="icon icon-xs me-1"
+                                                        xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" viewBox="0 0 24 24" fill="none"
+                                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        class="icon icon-tabler icons-tabler-outline icon-tabler-list">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                        <path d="M9 6l11 0" />
+                                                        <path d="M9 12l11 0" />
+                                                        <path d="M9 18l11 0" />
+                                                        <path d="M5 6l0 .01" />
+                                                        <path d="M5 12l0 .01" />
+                                                        <path d="M5 18l0 .01" />
+                                                    </svg>Catatan</button>
                                             </td>
                                             <td>
                                                 <div class="d-flex flex-row me-2">
                                                     <div class="">
-                                                        <button class="btn btn-sm btn-gray-700"><svg class="icon icon-xs me-1"
+                                                        <button class="btn btn-sm btn-gray-700"><svg
+                                                                class="icon icon-xs me-1"
                                                                 xmlns="http://www.w3.org/2000/svg" width="24"
                                                                 height="24" viewBox="0 0 24 24" fill="none"
                                                                 stroke="currentColor" stroke-width="2"
@@ -364,7 +386,8 @@
                                                                 <path
                                                                     d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" />
                                                             </svg>Cek</button>
-                                                        <button class="btn btn-sm btn-secondary"><svg class="icon icon-xs me-1"
+                                                        <button class="btn btn-sm btn-secondary"><svg
+                                                                class="icon icon-xs me-1"
                                                                 xmlns="http://www.w3.org/2000/svg" width="24"
                                                                 height="24" viewBox="0 0 24 24" fill="none"
                                                                 stroke="currentColor" stroke-width="2"
@@ -402,12 +425,26 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                <button class="btn btn-sm btn-info"><svg class="icon icon-xs me-1" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-list"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l11 0" /><path d="M9 12l11 0" /><path d="M9 18l11 0" /><path d="M5 6l0 .01" /><path d="M5 12l0 .01" /><path d="M5 18l0 .01" /></svg>Catatan</button>
+                                                <button class="btn btn-sm btn-tertiary"><svg class="icon icon-xs me-1"
+                                                        xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" viewBox="0 0 24 24" fill="none"
+                                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        class="icon icon-tabler icons-tabler-outline icon-tabler-list">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                        <path d="M9 6l11 0" />
+                                                        <path d="M9 12l11 0" />
+                                                        <path d="M9 18l11 0" />
+                                                        <path d="M5 6l0 .01" />
+                                                        <path d="M5 12l0 .01" />
+                                                        <path d="M5 18l0 .01" />
+                                                    </svg>Catatan</button>
                                             </td>
                                             <td>
                                                 <div class="d-flex flex-row me-2">
                                                     <div class="">
-                                                        <button class="btn btn-sm btn-gray-700"><svg class="icon icon-xs me-1"
+                                                        <button class="btn btn-sm btn-gray-700"><svg
+                                                                class="icon icon-xs me-1"
                                                                 xmlns="http://www.w3.org/2000/svg" width="24"
                                                                 height="24" viewBox="0 0 24 24" fill="none"
                                                                 stroke="currentColor" stroke-width="2"
@@ -419,7 +456,8 @@
                                                                 <path
                                                                     d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" />
                                                             </svg>Cek</button>
-                                                        <button class="btn btn-sm btn-secondary"><svg class="icon icon-xs me-1"
+                                                        <button class="btn btn-sm btn-secondary"><svg
+                                                                class="icon icon-xs me-1"
                                                                 xmlns="http://www.w3.org/2000/svg" width="24"
                                                                 height="24" viewBox="0 0 24 24" fill="none"
                                                                 stroke="currentColor" stroke-width="2"
@@ -457,12 +495,26 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                <button class="btn btn-sm btn-info"><svg class="icon icon-xs me-1" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-list"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l11 0" /><path d="M9 12l11 0" /><path d="M9 18l11 0" /><path d="M5 6l0 .01" /><path d="M5 12l0 .01" /><path d="M5 18l0 .01" /></svg>Catatan</button>
+                                                <button class="btn btn-sm btn-tertiary"><svg class="icon icon-xs me-1"
+                                                        xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" viewBox="0 0 24 24" fill="none"
+                                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        class="icon icon-tabler icons-tabler-outline icon-tabler-list">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                        <path d="M9 6l11 0" />
+                                                        <path d="M9 12l11 0" />
+                                                        <path d="M9 18l11 0" />
+                                                        <path d="M5 6l0 .01" />
+                                                        <path d="M5 12l0 .01" />
+                                                        <path d="M5 18l0 .01" />
+                                                    </svg>Catatan</button>
                                             </td>
                                             <td>
                                                 <div class="d-flex flex-row me-2">
                                                     <div class="">
-                                                        <button class="btn btn-sm btn-gray-700"><svg class="icon icon-xs me-1"
+                                                        <button class="btn btn-sm btn-gray-700"><svg
+                                                                class="icon icon-xs me-1"
                                                                 xmlns="http://www.w3.org/2000/svg" width="24"
                                                                 height="24" viewBox="0 0 24 24" fill="none"
                                                                 stroke="currentColor" stroke-width="2"
@@ -474,7 +526,8 @@
                                                                 <path
                                                                     d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" />
                                                             </svg>Cek</button>
-                                                        <button class="btn btn-sm btn-secondary"><svg class="icon icon-xs me-1"
+                                                        <button class="btn btn-sm btn-secondary"><svg
+                                                                class="icon icon-xs me-1"
                                                                 xmlns="http://www.w3.org/2000/svg" width="24"
                                                                 height="24" viewBox="0 0 24 24" fill="none"
                                                                 stroke="currentColor" stroke-width="2"
@@ -512,12 +565,26 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                <button class="btn btn-sm btn-info"><svg class="icon icon-xs me-1" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-list"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l11 0" /><path d="M9 12l11 0" /><path d="M9 18l11 0" /><path d="M5 6l0 .01" /><path d="M5 12l0 .01" /><path d="M5 18l0 .01" /></svg>Catatan</button>
+                                                <button class="btn btn-sm btn-tertiary"><svg class="icon icon-xs me-1"
+                                                        xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" viewBox="0 0 24 24" fill="none"
+                                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        class="icon icon-tabler icons-tabler-outline icon-tabler-list">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                        <path d="M9 6l11 0" />
+                                                        <path d="M9 12l11 0" />
+                                                        <path d="M9 18l11 0" />
+                                                        <path d="M5 6l0 .01" />
+                                                        <path d="M5 12l0 .01" />
+                                                        <path d="M5 18l0 .01" />
+                                                    </svg>Catatan</button>
                                             </td>
                                             <td>
                                                 <div class="d-flex flex-row me-2">
                                                     <div class="">
-                                                        <button class="btn btn-sm btn-gray-700"><svg class="icon icon-xs me-1"
+                                                        <button class="btn btn-sm btn-gray-700"><svg
+                                                                class="icon icon-xs me-1"
                                                                 xmlns="http://www.w3.org/2000/svg" width="24"
                                                                 height="24" viewBox="0 0 24 24" fill="none"
                                                                 stroke="currentColor" stroke-width="2"
@@ -529,7 +596,8 @@
                                                                 <path
                                                                     d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" />
                                                             </svg>Cek</button>
-                                                        <button class="btn btn-sm btn-secondary"><svg class="icon icon-xs me-1"
+                                                        <button class="btn btn-sm btn-secondary"><svg
+                                                                class="icon icon-xs me-1"
                                                                 xmlns="http://www.w3.org/2000/svg" width="24"
                                                                 height="24" viewBox="0 0 24 24" fill="none"
                                                                 stroke="currentColor" stroke-width="2"

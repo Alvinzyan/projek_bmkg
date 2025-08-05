@@ -102,9 +102,20 @@
         </nav>
 
         <div class="d-flex align-items-center py-4">
-            <svg class="icon me-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="icon icon-tabler icons-tabler-outline icon-tabler-building">
+            <a href="/cek-alat" class="hover-back">
+                <svg class="icon me-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M5 12l14 0" />
+                    <path d="M5 12l6 6" />
+                    <path d="M5 12l6 -6" />
+                </svg>
+            </a>
+
+            <svg class="icon me-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-building">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M3 21l18 0" />
                 <path d="M9 8l1 0" />
@@ -126,19 +137,25 @@
                             <div class="card-header">
                                 <div class="row align-items-center">
                                     <div class="col d-flex justify-content-center">
-                                        <h2 class="fs-4 fw-bolder mb-0">Inventaris Alat BMKG</h2>
+                                        <h2 class="fs-4 fw-bolder mb-3">Inventaris Alat BMKG</h2>
                                     </div>
 
-                                    <div class="col-12 mt-1">
-                                        <small class="text-black">
-                                            Nama Penanggung Jawab :<span> Cindil</span>
-                                        </small>
+                                    <div class="card-info border-0 shadow py-2 mb-3">
+                                        <div class="col-12">
+                                            <small class="fs-6 fw-bold text-black">
+                                                Nama Penanggung Jawab :
+                                            </small>
+                                            <small class="fs-6 fw-medium text-gray-900">Cindil</small>
+                                        </div>
                                     </div>
 
-                                    <div class="col-12 mt-1">
-                                        <small class="text-black">
-                                            Tanggal Pengecekan :<span> 17 Agustus 1945</span>
-                                        </small>
+                                    <div class="card-info border-0 shadow py-2">
+                                        <div class="col-12 d-flex align-items-center gap-2">
+                                            <small class="fs-6 fw-bold text-black">
+                                                Tanggal Pengecekan : </small>
+                                            <input type="date" class="form-control" name="" id=""
+                                                style="max-width: 150px">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -148,14 +165,14 @@
                                 <div class="table-responsive">
                                     <table class="table align-items-center table-flush">
                                         <colgroup>
-                                            <col style="width: 5%;">
-                                            <col style="width: 25%;">
-                                            <col style="width: 15%;">
-                                            <col style="width: 5%;">
+                                            <col style="width: 3%;">
                                             <col style="width: 20%;">
-                                            <col style="width: 10%;">
-                                            <col style="width: 10%;">
-                                            <col style="width: 10%;">
+                                            <col style="width: 15%;">
+                                            <col style="width: 3%;">
+                                            <col style="width: 25%;">
+                                            <col style="width: 3%;">
+                                            <col style="width: 11%;">
+                                            <col style="width: 20%;">
                                         </colgroup>
                                         <thead class="thead-light">
                                             <tr>
@@ -164,7 +181,7 @@
                                                 <th class="border-bottom">Merek/Type</th>
                                                 <th class="border-bottom">Jml</th>
                                                 <th class="border-bottom">Kondisi</th>
-                                                <th class="border-bottom">Tahun Pemasangan</th>
+                                                <th class="border-bottom">Tahun <br> Pemasangan</th>
                                                 <th class="border-bottom">Kalibrasi Terakhir</th>
                                                 <th class="border-bottom">Keterangan</th>
                                             </tr>
@@ -173,7 +190,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <td class="text-gray-900" scope="row">
-                                                    1.   
+                                                    1.
                                                 </td>
 
                                                 {{-- Nama Alat --}}
@@ -193,7 +210,13 @@
 
                                                 {{-- Kondisi --}}
                                                 <td>
-                                                    {{-- Jangan diisi dulu --}}
+                                                    <select class="form-select" style="min-width: 130px"
+                                                        aria-label="Default select example">
+                                                        <option selected>Pilih Kondisi</option>
+                                                        <option value="Baik">Baik</option>
+                                                        <option value="Rusak Ringan">Rusak Ringan</option>
+                                                        <option value="Rusak Berat">Rusak Berat</option>
+                                                    </select>
                                                 </td>
 
                                                 {{-- Tahun Pemasangan --}}
@@ -203,18 +226,26 @@
 
                                                 {{-- Kalibrasi Terakhir --}}
                                                 <td>
-                                                    {{-- Jangan diisi dulu --}}
+                                                    <input type="number" name="" class="form-control"
+                                                        min="2000" max="2099"
+                                                        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                                                        type="number" id="inputNumber" maxlength="4">
                                                 </td>
 
                                                 {{-- Keterangan --}}
                                                 <td>
-                                                    {{-- Jangan diisi dulu --}}
+                                                    <select class="form-select" style="min-width: 160px"
+                                                        aria-label="Default select example">
+                                                        <option selected>Pilih Keterangan</option>
+                                                        <option value="Terpasang">Terpasang</option>
+                                                        <option value="Tidak Terpasang">Tidak Terpasang</option>
+                                                    </select>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    2.   
+                                                    2.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -255,7 +286,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    3.   
+                                                    3.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -296,7 +327,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    4.   
+                                                    4.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -337,7 +368,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    5.   
+                                                    5.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -378,7 +409,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    6.   
+                                                    6.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -419,7 +450,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    7.   
+                                                    7.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -460,7 +491,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    8.   
+                                                    8.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -501,7 +532,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    9.   
+                                                    9.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -542,7 +573,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    10.   
+                                                    10.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -552,7 +583,7 @@
 
                                                 {{-- Merek/Type --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                   RM. Young
+                                                    RM. Young
                                                 </td>
 
                                                 {{-- Jumlah --}}
@@ -583,7 +614,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    11.   
+                                                    11.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -624,7 +655,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    12.   
+                                                    12.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -666,13 +697,61 @@
                                     </table>
                                 </div>
                             </div>
+
                             <div class="p-3">
-                                <div class="text-end">
-                                    <button class="btn btn-sm btn-primary"><svg class="icon icon-xs me-1" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg>Tambah Catatan</button>
+                                <!-- Tombol Tambah Catatan -->
+                                <div class="d-flex justify-content-end mb-3">
+                                    <button class="btn btn-sm btn-tertiary" data-bs-toggle="modal"
+                                        data-bs-target="#modalTambahCatatan">
+                                        <svg class="icon icon-xs me-1" xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <path d="M12 5l0 14" />
+                                            <path d="M5 12l14 0" />
+                                        </svg>
+                                        Tambah Catatan
+                                    </button>
                                 </div>
 
-                                <div class="notes">
-                                    <h4 class="fs-5 fw-bold">Catatan: </h4>
+                                <!-- Modal Tambah Catatan -->
+                                <div class="modal fade" id="modalTambahCatatan" tabindex="-1"
+                                    aria-labelledby="modalTambahCatatanLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content border-0 shadow">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="modalTambahCatatanLabel">Tambah Catatan
+                                                </h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Tutup"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form id="formTambahCatatan">
+                                                    <div class="mb-3">
+                                                        <label for="catatan" class="form-label">Catatan</label>
+                                                        <textarea class="form-control" id="catatan" rows="4" placeholder="Tulis catatan di sini..."></textarea>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-sm btn-danger"
+                                                    data-bs-dismiss="modal">Batal</button>
+                                                <button type="submit" form="formTambahCatatan"
+                                                    class="btn btn-sm btn-success">Simpan</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-note border-0 shadow">
+                                    <h4 class="fs-6 fw-bold mb-0 me-2">Catatan : </h4>
+
+                                    <!-- Daftar Catatan -->
+                                    <ul class="list-unstyled mb-0">
+                                        <li>Tambahkan catatan apabila dibutuhkan</li>
+                                        <li>Catatan kedua</li>
+                                    </ul>
                                 </div>
                             </div>
 
@@ -681,14 +760,14 @@
                                 <div class="table-responsive">
                                     <table class="table align-items-center table-flush">
                                         <colgroup>
-                                            <col style="width: 5%;">
-                                            <col style="width: 25%;">
-                                            <col style="width: 15%;">
-                                            <col style="width: 5%;">
+                                            <col style="width: 1%;">
                                             <col style="width: 20%;">
+                                            <col style="width: 15%;">
+                                            <col style="width: 3%;">
+                                            <col style="width: 30%;">
+                                            <col style="width: 3%;">
                                             <col style="width: 10%;">
-                                            <col style="width: 10%;">
-                                            <col style="width: 10%;">
+                                            <col style="width: 18%;">
                                         </colgroup>
                                         <thead class="thead-light">
                                             <tr>
@@ -697,7 +776,7 @@
                                                 <th class="border-bottom">Merek/Type</th>
                                                 <th class="border-bottom">Jml</th>
                                                 <th class="border-bottom">Kondisi</th>
-                                                <th class="border-bottom">Tahun Pemasangan</th>
+                                                <th class="border-bottom">Tahun <br> Pemasangan</th>
                                                 <th class="border-bottom">Kalibrasi Terakhir</th>
                                                 <th class="border-bottom">Keterangan</th>
                                             </tr>
@@ -706,7 +785,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <td class="text-gray-900" scope="row">
-                                                    1.   
+                                                    1.
                                                 </td>
 
                                                 {{-- Nama Alat --}}
@@ -726,7 +805,13 @@
 
                                                 {{-- Kondisi --}}
                                                 <td>
-                                                    {{-- Jangan diisi dulu --}}
+                                                    <select class="form-select" style="min-width: 130px"
+                                                        aria-label="Default select example">
+                                                        <option selected>Pilih Kondisi</option>
+                                                        <option value="Baik">Baik</option>
+                                                        <option value="Rusak Ringan">Rusak Ringan</option>
+                                                        <option value="Rusak Berat">Rusak Berat</option>
+                                                    </select>
                                                 </td>
 
                                                 {{-- Tahun Pemasangan --}}
@@ -736,18 +821,26 @@
 
                                                 {{-- Kalibrasi Terakhir --}}
                                                 <td>
-                                                    {{-- Jangan diisi dulu --}}
+                                                    <input type="number" name="" class="form-control"
+                                                        min="2000" max="2099"
+                                                        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                                                        type="number" id="inputNumber" maxlength="4">
                                                 </td>
 
                                                 {{-- Keterangan --}}
                                                 <td>
-                                                    {{-- Jangan diisi dulu --}}
+                                                    <select class="form-select" style="min-width: 160px"
+                                                        aria-label="Default select example">
+                                                        <option selected>Pilih Keterangan</option>
+                                                        <option value="Terpasang">Terpasang</option>
+                                                        <option value="Tidak Terpasang">Tidak Terpasang</option>
+                                                    </select>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    2.   
+                                                    2.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -788,7 +881,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    3.   
+                                                    3.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -829,7 +922,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    4.   
+                                                    4.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -870,7 +963,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    5.   
+                                                    5.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -911,7 +1004,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    6.   
+                                                    6.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -952,7 +1045,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    7.   
+                                                    7.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -993,7 +1086,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    8.   
+                                                    8.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -1003,7 +1096,7 @@
 
                                                 {{-- Merek/Type --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    
+
                                                 </td>
 
                                                 {{-- Jumlah --}}
@@ -1034,7 +1127,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    9.   
+                                                    9.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -1075,7 +1168,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    10.   
+                                                    10.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -1085,7 +1178,7 @@
 
                                                 {{-- Merek/Type --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                   
+
                                                 </td>
 
                                                 {{-- Jumlah --}}
@@ -1116,7 +1209,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    11.   
+                                                    11.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -1126,7 +1219,7 @@
 
                                                 {{-- Merek/Type --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    
+
                                                 </td>
 
                                                 {{-- Jumlah --}}
@@ -1157,7 +1250,7 @@
                                             <tr>
                                                 {{-- No --}}
                                                 <th class="text-gray-900" scope="row">
-                                                    12.   
+                                                    12.
                                                 </th>
 
                                                 {{-- Nama Alat --}}
@@ -1167,7 +1260,7 @@
 
                                                 {{-- Merek/Type --}}
                                                 <td class="fw-bolder text-gray-500">
-                                                    
+
                                                 </td>
 
                                                 {{-- Jumlah --}}
@@ -1200,12 +1293,76 @@
                                 </div>
                             </div>
                             <div class="p-3">
-                                <div class="text-end">
-                                    <button class="btn btn-sm btn-primary"><svg class="icon icon-xs me-1" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg>Tambah Catatan</button>
+                                <!-- Tombol Tambah Catatan -->
+                                <div class="d-flex justify-content-end mb-3">
+                                    <button class="btn btn-sm btn-tertiary" data-bs-toggle="modal"
+                                        data-bs-target="#modalTambahCatatan">
+                                        <svg class="icon icon-xs me-1" xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <path d="M12 5l0 14" />
+                                            <path d="M5 12l14 0" />
+                                        </svg>
+                                        Tambah Catatan
+                                    </button>
                                 </div>
 
-                                <div class="notes">
-                                    <h4 class="fs-5 fw-bold">Catatan: </h4>
+                                <!-- Modal Tambah Catatan -->
+                                <div class="modal fade" id="modalTambahCatatan" tabindex="-1"
+                                    aria-labelledby="modalTambahCatatanLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content border-0 shadow">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="modalTambahCatatanLabel">Tambah Catatan
+                                                </h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Tutup"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form id="formTambahCatatan">
+                                                    <div class="mb-3">
+                                                        <label for="catatan" class="form-label">Catatan</label>
+                                                        <textarea class="form-control" id="catatan" rows="4" placeholder="Tulis catatan di sini..."></textarea>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-sm btn-danger"
+                                                    data-bs-dismiss="modal">Batal</button>
+                                                <button type="submit" form="formTambahCatatan"
+                                                    class="btn btn-sm btn-success">Simpan</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-note border-0 shadow">
+                                    <h4 class="fs-6 fw-bold mb-0 me-2">Catatan : </h4>
+
+                                    <!-- Daftar Catatan -->
+                                    <ul class="list-unstyled mb-0">
+                                        <li>Tambahkan catatan apabila dibutuhkan</li>
+                                        <li>Catatan kedua</li>
+                                    </ul>
+                                </div>
+
+                                <div class="d-flex justify-content-end py-3">
+                                    <button class="btn btn-primary">
+                                        <svg class="icon icon-xs me-1" xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="icon icon-tabler icons-tabler-outline icon-tabler-device-floppy">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M6 4h10l4 4v10a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2" />
+                                            <path d="M12 14m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                            <path d="M14 4l0 4l-6 0l0 -4" />
+                                        </svg>
+                                        Simpan
+                                    </button>
                                 </div>
                             </div>
                         </div>
